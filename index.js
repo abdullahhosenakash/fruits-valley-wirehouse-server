@@ -15,8 +15,15 @@ async function run() {
         await client.connect();
         const serviceCollection = client.db('fruitsValley').collection('services');
 
+        app.get('/services', async (req, res) => {
+            const query = {};
+            const cursor = serviceCollection.find(query);
+            const services = await cursor.toArray();
+            res.send(services);
 
-        
+        });
+
+
     }
     finally {
 
