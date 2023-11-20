@@ -1,2 +1,3 @@
 # Fruit Valley Warehouse Server
-This is a server of the project Fruit Valley Warehouse. The server link is [here](https://pure-atoll-61316.herokuapp.com/)
+
+This is a server of the project Fruit Valley Warehouse. The client side repository is [here](https://github.com/abdullahhosenakash/fruits-valley-wirehouse-client)
